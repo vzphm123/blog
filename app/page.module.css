@@ -34,24 +34,6 @@
   );
 }
 
-.avatar::before {
-  content: '';
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  background: var(--accent-primary);
-  border-radius: 30px;
-  clip-path: polygon(
-    30% 5%, 35% 2%, 40% 0.5%, 50% 0%, 60% 0.5%, 65% 2%, 70% 5%,
-    90% 20%, 95% 30%, 97.5% 40%, 100% 50%, 97.5% 60%, 95% 70%, 90% 80%,
-    70% 95%, 65% 98%, 60% 99.5%, 50% 100%, 40% 99.5%, 35% 98%, 30% 95%,
-    10% 80%, 5% 70%, 2.5% 60%, 0% 50%, 2.5% 40%, 5% 30%, 10% 20%
-  );
-  z-index: -1;
-}
-
 .heroText h1 {
   font-size: 2.5rem;
   font-weight: 700;
