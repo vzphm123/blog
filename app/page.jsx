@@ -19,7 +19,7 @@ export default function Home() {
           <div className={styles.heroText}>
             <h1>welcome to  my blof =333</h1>
             <p>
-              im smaller dev , u can sp me here papal.me/thuaangu!
+              im smaller dev , u can sp me here papal.me/suhmydih!
             </p>
             <div className={styles.socialLinks}>
               <a href="https://github.com/isogay" target="_blank" rel="noopener noreferrer">
